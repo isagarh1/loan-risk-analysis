@@ -5,6 +5,7 @@
 - Maintained **~8% portfolio return**
 - Identified **Grades B–C as optimal risk-return segments**
 - Recommended reducing exposure to **high-risk borrowers (E–G)**
+- Improved portfolio stability by reducing downside risk while preserving profitability
 
 ---
 
