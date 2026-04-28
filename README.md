@@ -9,6 +9,16 @@
 
 ---
 
+## 📊 Dashboard Preview
+
+### Portfolio Overview
+<img width="1287" height="722" alt="Risk Overview" src="https://github.com/user-attachments/assets/49567444-0c10-46f1-867c-beb1eaa74d01" />
+
+### Strategy & Decision
+<img width="1281" height="717" alt="Strategy and Decision" src="https://github.com/user-attachments/assets/a5bd8539-e342-41a6-862a-6737990058f0" />
+
+---
+
 ## 📌 Overview
 Analyzed a consumer loan portfolio using **PostgreSQL and Power BI** to identify high-risk borrower segments and optimize lending strategy through scenario-based analysis.
 
