@@ -1,11 +1,10 @@
 # 📊 Loan Portfolio Risk & Profitability Analysis
 
 ## 🔍 Key Results
-- Reduced default rate from **13.8% → ~12.3% (~11% relative reduction)**
-- Maintained **~8% portfolio return**
-- Identified **Grades B–C as optimal risk-return segments**
-- Recommended reducing exposure to **high-risk borrowers (E–G)**
-- Improved portfolio stability by reducing downside risk while preserving profitability
+- Reduced default rate from **13.8% → ~12.3% (~11% relative reduction)** by excluding high-risk segments  
+- Maintained **~8% return**, avoiding aggressive profit erosion  
+- Identified **Grades B–C as optimal risk-return segments**  
+- Demonstrated that removing E–G borrowers improves stability at the cost of ~20% profit reduction  
 
 ---
 
@@ -59,16 +58,20 @@ The objective is to **minimize default risk without significantly reducing retur
 
 ### 4. Scenario Analysis
 
-| Scenario | Description |
-|----------|------------|
-| Baseline | Current portfolio |
-| No 60-month loans | Remove long-term loans |
-| No E–G grades | Remove high-risk borrowers |
-| Combined | Apply both restrictions |
+| Scenario | Profit | Return | Default Rate | Insight |
+|----------|--------|--------|--------------|--------|
+| Baseline | 37M | 8.56% | 13.82% | High profit but elevated risk |
+| No 60-month | 21.7M | 7.94% | 10.71% | Strong risk reduction but major profit loss |
+| No E–G | 29.3M | 8.00% | 12.29% | Best balance of risk and return |
+| Combined | 20.3M | 7.89% | 10.25% | Lowest risk but overly restrictive |
 
 ---
 
-## 💡 Recommendation
-Focus on **mid-grade borrowers (B–C)** while reducing exposure to **high-risk segments (E–G)** to improve risk-adjusted returns without overly restricting the portfolio.
+## 🛠️ Tools & Technologies
+- **PostgreSQL** → Data cleaning, feature engineering, and analytical queries  
+- **Power BI** → Interactive dashboards, DAX-based KPI modeling, scenario comparison  
 
+## Recommendation:
+
+Focus on mid-grade borrowers (B–C) while reducing exposure to high-risk segments (E–G) to improve risk-adjusted returns without overly restricting the portfolio.
 ---
